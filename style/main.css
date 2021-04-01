@@ -13,7 +13,7 @@
 body {
    background: var(--branco);
    font-family: 'Tahoma', arial;
-   color: rgb(0, 0, 0);
+   color: whitesmoke;
 
 }
 
@@ -29,7 +29,7 @@ header .logo {
     margin-left: 7px;
     color: var(--vinho);
     font-family: 'Tahoma', impact;
-    font-size: 45px;
+    font-size: 65px;
 }
 
 header nav a { 
@@ -44,7 +44,46 @@ header nav a:hover {
 }
 
 /*Spider-Man*/
-.filme {
+.Home {
     font-size: 20px;
-    background: url("/Images/ASM1.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%) ,url('../img/spiderman.jpeg');
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+} 
+
+.Home .Description {
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.Home .Comic {
+    margin-top: 2%;
+    font-size: 100px;
+    font-family: Spiderman, impact;
+}
+
+.Button_spidey {
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    color: var(--branco);
+    
+    padding: 20px 70px;
+    font-size: 15px;
+    margin-right: 15px;
+
+    cursor: pointer;
+    transition: .5s ease all;
+}
+
+.Button_spidey:hover {
+    background-color: whitesmoke;
+    color: var(--vinho);
+}
+
+.Button_spidey i{
+    margin-right: 5px;
 }
