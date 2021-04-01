@@ -1,0 +1,50 @@
+:root {
+    --cinza: #1d1d1d;
+    --vinho: #b4171f;
+    --branco: #e9e7e7ea;
+}
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body {
+   background: var(--branco);
+   font-family: 'Tahoma', arial;
+   color: rgb(0, 0, 0);
+
+}
+
+header .container {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+header .logo {
+    margin-left: 7px;
+    color: var(--vinho);
+    font-family: 'Tahoma', impact;
+    font-size: 45px;
+}
+
+header nav a { 
+    text-decoration:none;
+    color: var(--cinza);
+    margin-right: 12px;
+}
+
+
+header nav a:hover {
+    color: var(--vinho);
+}
+
+/*Spider-Man*/
+.filme {
+    font-size: 20px;
+    background: url("/Images/ASM1.jpg");
+}
