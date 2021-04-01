@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style/main.css">
+    <link rel="stylesheet" type="text/css" href="style/img.css">
+
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
 
     <title>Geek's District</title>
 </head>
 
 <body>
     <header>
-        <div class="container">
+        <div class="container_1">
             <h1 class="logo">Geek's District</h1>
             <nav>
                 <a href="#">Home</a>
                 <a href="#">Comics</a>
                 <a href="#">Mangás</a>
                 <a href="#">Animes</a>
+                <a href="#">Star Wars</a>
                 <a href="#">Series</a>
                 <a href="#">Movies</a>
                 <a href="#">Games</a>
@@ -26,21 +32,22 @@
     </header>
 
     <main>
-        <div class="Home">
-            <div class="container">
-                <h3 class="Comic">Spider-Man</h3>
-                <p class="Description">Bitten by a radioactive spider, Peter Parker’s arachnid abilities give him
-                    amazing powers he uses to help others, while his personal life continues to offer plenty of
-                    obstacles. With spider-like abilities, science genius Peter Parker swings above it all as
-                    Spider-Man, costumed champion of the innocent who lives and fights with the wisdom of “With Great
-                    Power Comes Great Responsibility!”
-                </p>
+        <div class="Banner">
+            <div class="container_2">
+                <h3 class="Comic">MARVEL</h3>
+                <p class="Description">
+                    Marvel Comics, American media and entertainment company that was widely regarded as one of the “big
+                    two” publishers in the comic industry. Its parent company, Marvel Entertainment, is a wholly owned
+                    subsidiary of the Disney Company. Its headquarters are in New York City.The precursor to Marvel
+                    Comics was founded in 1939 by pulp magazine publisher Martin Goodman. In order to capitalize on the
+                    growing popularity of comic books—especially those starring superheroes—Goodman created Timely
+                    Comics.</p>
                 <div class="buttons">
-                    <button role="button" class="Button_spidey">
+                    <button role="button" class="Button_marvel">
                         <i class="fas fa-book-open"></i>
                         Comics
                     </button>
-                    <button role="button" class="Button_spidey">
+                    <button role="button" class="Button_marvel">
                         <i class="fas fa-info-circle"></i>
                         More
                     </button>
@@ -49,7 +56,33 @@
         </div>
     </main>
 
+    <div class="carrousel-content">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-content" src="imgHome/Comics.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-content" src="imgHome/Mangás.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-content" src="imgHome/Animes.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-content" src="imgHome/Star wars.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-content" src="imgHome/Series.jpeg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class="box-content" src="imgHome/Movies.jpeg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
     <script src="https://kit.fontawesome.com/3f76a4ff78.js" crossorigin="anonymous"></script>
+    <script src="javascript/owl/jquery.min.js" ></script>
+    <script src="javascript/owl/owl.carousel.min.js" ></script>
+    <script src="javascript/owl/setup.js"></script>
 
 </body>
 

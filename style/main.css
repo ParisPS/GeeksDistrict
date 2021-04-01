@@ -17,7 +17,7 @@ body {
 
 }
 
-header .container {
+header .container_1 {
     display:flex;
     flex-direction: row;
     align-items: center;
@@ -44,9 +44,9 @@ header nav a:hover {
 }
 
 /*Spider-Man*/
-.Home {
+.Banner {
     font-size: 20px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%) ,url('../img/spiderman.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%) ,url('../imgHome/Marvel.jpeg');
     height: 500px;
     background-size: cover;
     display: flex;
@@ -55,18 +55,18 @@ header nav a:hover {
     align-items: flex-start;
 } 
 
-.Home .Description {
+.Banner .Description {
     margin-top: 10px;
     margin-bottom: 50px;
 }
 
-.Home .Comic {
+.Banner .Comic {
     margin-top: 2%;
-    font-size: 100px;
-    font-family: Spiderman, impact;
+    font-size: 150px;
+    font-family: impact;
 }
 
-.Button_spidey {
+.Button_marvel {
     background-color: rgba(0, 0, 0, 0.7);
     border: none;
     color: var(--branco);
@@ -79,11 +79,19 @@ header nav a:hover {
     transition: .5s ease all;
 }
 
-.Button_spidey:hover {
+.Button_marvel:hover {
     background-color: whitesmoke;
     color: var(--vinho);
 }
 
-.Button_spidey i{
+.Button_marvel i{
     margin-right: 5px;
+}
+
+.container_2 {
+    margin-left: 20px;
+}
+
+.Banner .container_2 {
+    width: 90%;
 }
