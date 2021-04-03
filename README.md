@@ -4,6 +4,6 @@ Site baseado no layout e funcionamento da Netflix, no entanto o conteúdo é mai
 ## Tecnologias usadas:
 * HTML5;
 * CSS3;
-*JavaScript.
+* JavaScript.
 
 ## 🚀 Let's code! 🚀
