@@ -47,7 +47,7 @@ header nav a:hover {
 /*Marvel*/
 .Banner {
     font-size: 18px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%) ,url('../img/imgHome/Marvel.jpeg');
+    background-image: url('/img/imgHome/Games.jpeg');
     height: 600px;
     background-size: cover;
     display: flex;
@@ -98,10 +98,3 @@ header nav a:hover {
     width: 90%;
 }
 
-.box-content {
-    margin-top: 25px;
-    height: 100%;
-    width: 100%;
-    display: block;
-    cursor: pointer;
-}
