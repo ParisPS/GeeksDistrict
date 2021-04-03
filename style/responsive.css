@@ -9,6 +9,18 @@
         width: 190px;
         height: 60px;
     }
+
+    .git1 {
+        margin-top: 5px;
+        width: 190px;
+        height: 60px;
+    }
+
+    .git2 {
+        margin-top: 5px;
+        width: 190px;
+        height: 60px;
+    }
 }
 
 @media screen and (min-width: 1000px) {

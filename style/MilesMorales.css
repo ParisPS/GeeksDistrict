@@ -107,17 +107,6 @@ header nav a:hover {
     cursor: pointer;
 }
 
-.git {
-    margin-left: 80px;
-    color: var(--branco);
-    padding: 20px 100px;
-
-    cursor: pointer;
-    transition: .3s ease all;
-    justify-content: space-between;
-}
-
-
 .git1 {
 margin-left: 100px;
 color: var(--branco);
