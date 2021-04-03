@@ -47,7 +47,7 @@ header nav a:hover {
 /*Miles Morales*/
 .Banner {
     font-size: 18px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%) ,url("../img/imgComics/imgMiles1/MilesMorales.jpeg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%) ,url("../img/imgAnimes/akame.jpeg");
     height: 600px;
     background-size: cover;
     display: flex;

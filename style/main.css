@@ -67,7 +67,7 @@ header nav a:hover {
     font-family: impact;
 }
 
-.Button_marvel {
+.Button {
     background-color: rgba(0, 0, 0, 0.7);
     border: none;
     color: var(--branco);
@@ -81,12 +81,12 @@ header nav a:hover {
     transition: .3s ease all;
 }
 
-.Button_marvel:hover {
+.Button:hover {
     background-color: whitesmoke;
     color: var(--vinho);
 }
 
-.Button_marvel i {
+.Button i {
     margin-right: 8px;
 }
 
