@@ -70,6 +70,7 @@ header nav a:hover {
 .Button {
     background-color: rgba(0, 0, 0, 0.7);
     border: none;
+    border-radius: 10px;
     color: var(--branco);
     text-decoration: none;
     
@@ -104,4 +105,51 @@ header nav a:hover {
     width: 100%;
     display: block;
     cursor: pointer;
+}
+
+.git {
+    margin-left: 80px;
+    color: var(--branco);
+    padding: 20px 100px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    justify-content: space-between;
+}
+
+
+.git1 {
+margin-left: 110px;
+color: var(--branco);
+padding: 20px 100px;
+
+cursor: pointer;
+transition: .3s ease all;
+justify-content: space-between;
+}
+
+.git1 i{
+font-size: 100px;
+}
+
+.git1:hover {
+color: var(--vinho);
+}
+
+.git2 {
+margin-left: 290px;
+color: var(--branco);
+padding: 20px 100px;
+
+cursor: pointer;
+transition: .3s ease all;
+justify-content: space-between;
+}
+
+.git2 i{
+font-size: 100px;
+}
+
+.git2:hover {
+color: var(--vinho);
 }
