@@ -78,7 +78,7 @@ header nav a:hover {
     margin-right: 15px;
 
     cursor: pointer;
-    transition: .5s ease all;
+    transition: .3s ease all;
 }
 
 .Button_marvel:hover {
