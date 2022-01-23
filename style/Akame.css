@@ -29,11 +29,11 @@ header .logo {
     margin-left: 5px;
     color: var(--vinho);
     font-family: 'Tahoma', impact;
-    font-size: 40px;
+    font-size: 44px;
 }
 
 header nav a { 
-    font-size: 15px;
+    font-size: 17px;
     text-decoration:none;
     color: var(--cinza);
     margin-right: 10px;
@@ -44,10 +44,10 @@ header nav a:hover {
     color: var(--vinho);
 }
 
-/*Marvel*/
+/*Miles Morales*/
 .Banner {
     font-size: 18px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%) ,url('../img/imgHome/Marvel.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)100%) ,url("../img/imgAnimes/akame.jpeg");
     height: 600px;
     background-size: cover;
     display: flex;
@@ -79,7 +79,7 @@ header nav a:hover {
     margin-right: 15px;
 
     cursor: pointer;
-    transition: .3s ease all; 
+    transition: .3s ease all;
 }
 
 .Button:hover {
@@ -105,52 +105,51 @@ header nav a:hover {
     width: 100%;
     display: block;
     cursor: pointer;
-    margin-bottom: 30px;
 }
 
 .git {
-        margin-left: 80px;
-        color: var(--branco);
-        padding: 20px 100px;
-    
-        cursor: pointer;
-        transition: .3s ease all;
-        justify-content: space-between;
+    margin-left: 80px;
+    color: var(--branco);
+    padding: 20px 100px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+    justify-content: space-between;
 }
 
 
 .git1 {
-    margin-left: 70px;
-    color: var(--branco);
-    padding: 20px 100px;
-    
-    cursor: pointer;
-    transition: .3s ease all;
-    justify-content: space-between;
+margin-left: 70px;
+color: var(--branco);
+padding: 20px 100px;
+
+cursor: pointer;
+transition: .3s ease all;
+justify-content: space-between;
 }
 
 .git1 i{
-    font-size: 100px;
+font-size: 100px;
 }
 
 .git1:hover {
-    color: var(--vinho);
+color: var(--vinho);
 }
 
 .git2 {
-    margin-left: 230px;
-    color: var(--branco);
-    padding: 20px 100px;
-    
-    cursor: pointer;
-    transition: .3s ease all;
-    justify-content: space-between;
+margin-left: 230px;
+color: var(--branco);
+padding: 20px 100px;
+
+cursor: pointer;
+transition: .3s ease all;
+justify-content: space-between;
 }
 
 .git2 i{
-    font-size: 100px;
+font-size: 100px;
 }
 
 .git2:hover {
-    color: var(--vinho);
+color: var(--vinho);
 }
